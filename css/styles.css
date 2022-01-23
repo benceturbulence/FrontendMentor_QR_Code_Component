@@ -1,0 +1,49 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid pink
+}
+
+.card {
+    width: 375px;
+    border: 1px solid greenyellow;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto
+}
+
+.qr_code {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-weight: 900;
+    margin-top: 0;
+    font-size: 20px
+}
+
+p {
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+
+.text_container {
+    padding: 1em 2em ;
+    margin-top: 0;
+    margin-bottom: ;
+    text-align: center;
+    border: 1px solid yellowgreen;
+
+}
