@@ -5,19 +5,24 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    align-items: center;
+
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid pink
+    border: 1px solid pink;
+    padding-top: 3rem
 }
 
 .card {
-    width: 375px;
+    width: 20% ;
+    min-width: 375px;
+    
     border: 1px solid greenyellow;
     background-color: white;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     margin: 0 auto
 }
@@ -28,9 +33,9 @@ body {
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 0;
-    font-size: 20px
+    font-size: 22px
 }
 
 p {
@@ -42,8 +47,5 @@ p {
 .text_container {
     padding: 1em 2em ;
     margin-top: 0;
-    margin-bottom: ;
     text-align: center;
-    border: 1px solid yellowgreen;
-
 }
